@@ -877,7 +877,7 @@ class ClayMAEModule(L.LightningModule):
         patch_size=8,
         shuffle=False,
         metadata_path="configs/metadata.yaml",
-        teacher="vit_base_patch14_reg4_dinov2.lvd142m",
+        teacher="vit_large_patch14_reg4_dinov2.lvd142m",
         dolls=[16, 32, 64, 128, 256, 768],
         doll_weights=[1, 1, 1, 1, 1, 1],
         lr=1e-5,
